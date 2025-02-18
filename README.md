@@ -1,2 +1,2 @@
-# pychat
+# PYchat
  Chat using python
