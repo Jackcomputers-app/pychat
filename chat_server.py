@@ -1,9 +1,12 @@
+#This program is made by Jack McCotter for CYB 220
 from flask import Flask, render_template
 from flask_socketio import SocketIO, send
 
-app = Flask(__name__)
+app = Flask(__name__,template_folder='Templates')
 socketio = SocketIO(app, cors_allowed_origins="*")
 
+
+#This is where your code will run on your. If you are planning on running on a server put that locaton. 
 host="localhost"
 port="5000"
 
