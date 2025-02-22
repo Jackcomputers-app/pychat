@@ -35,7 +35,7 @@
 </div>
 
 <script>
-    var socket = io.connect("https://pychat.jackcomputers.app");//Change here if you change the web server.
+    var socket = io.connect("http://localhost:5000");//Change here if you change the web server.
 
     socket.on("message", function (data) {
         let chatBox = document.getElementById("chat-box");
