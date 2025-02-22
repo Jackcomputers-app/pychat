@@ -15,8 +15,8 @@ SSL_KEY = "/etc/letsencrypt/live/pychat.jackcomputers.app/privkey.pem"
 
 users = {}
 
-BAD_WORDS = {"Badword1", "Badword2", "Badword3"}
-GOOD_WORDS = {"Badword1", "Goodword2", "Goodord3"}
+BAD_WORDS = {"Goodword1", "Goodword2", "Goodword3"}
+GOOD_WORDS = {"Badword1", "Badword2", "Badword3"}
 
 print(f"The server is running on {host} port {port}")
 

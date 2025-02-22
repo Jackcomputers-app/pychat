@@ -35,7 +35,7 @@
 </div>
 
 <script>
-    var socket = io.connect("http://localhost:5000");//Change here if you change the web server.
+    var socket = io.connect("https://pychat.jackcomputers.app");//Change here if you change the web server.
 
     socket.on("message", function (data) {
         let chatBox = document.getElementById("chat-box");
@@ -43,6 +43,10 @@
         messageElement.textContent = data;
         chatBox.appendChild(messageElement);
         chatBox.scrollTop = chatBox.scrollHeight;
+    });
+
+    socket.on("leaderboard", function (data){
+        document.getElementById("leaderboard").textContent = data;
     });
 
     function sendMessage() {
@@ -61,6 +65,12 @@
     function getScores() {
         socket.emit("get_scores");
     }
+    document.getElementById("message").addEventListener("keypress",function(event){
+        if (event.key === "Enter"){
+        event.preventDefault();
+        sendMessage();
+    }
+});
 
     socket.on("message", function (data) {
         if (data.startsWith("Leaderboard:")) {
@@ -68,7 +78,7 @@
         }
     });
 
-    setInterval(getScores, 30000);//Number of Milliseconds to get score. In our Example it will update every 30 Secounds. 
+    setInterval(getScores, 10000);//Number of Milliseconds to get score. By default it will update every 5 Secounds. 
 </script>
 
 </body>
