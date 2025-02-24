@@ -98,6 +98,8 @@ Update your domain name in the python script.
 host = "example.com"
 port = 443
 
+```
+
 Update the ssl locatoin in the python script. Replace example.com with your domain name of your website.  
 
 
