@@ -10,8 +10,8 @@ socketio = SocketIO(app, cors_allowed_origins="*")
 host = "pychat.jackcomputers.app"
 port = 443
 
-SSL_CERT = "/etc/letsencrypt/live/pychat.jackcomputers.app/fullchain.pem"
-SSL_KEY = "/etc/letsencrypt/live/pychat.jackcomputers.app/privkey.pem"
+SSL_CERT = "/etc/letsencrypt/live/example.com/fullchain.pem"
+SSL_KEY = "/etc/letsencrypt/live/example.com/privkey.pem"
 
 users = {}
 
