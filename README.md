@@ -48,6 +48,14 @@ unzip main.zip
 
 ```
 
+Move into the directory
+
+```bash
+
+cd pychat-main
+
+```
+
 Install the Python virtual environment toolkit
 
 ```bash
