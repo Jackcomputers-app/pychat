@@ -24,6 +24,20 @@ wget https://github.com/Jackcomputers-app/pychat/archive/refs/heads/main.zip
 
 ```
 
+run apt update
+
+```bash
+
+sudo apt update
+
+Ensure you have an unzip tool.
+
+```bash
+
+sudo apt install unzip
+
+```
+
 Unzip the folder
 
 ```bash
