@@ -115,6 +115,14 @@ sudo certbot certonly --standalone -d example.com
 
 ```
 
+Open the python file for the next two parts
+
+```bash
+
+nano chat_server.py
+
+```
+
 Update your domain name in the python script.
 
 ```python
