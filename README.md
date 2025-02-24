@@ -6,7 +6,7 @@ Install instructions for Linux
 
 The default directory has the SSL version of pychat running. 
 
-This will not run locally if you would like to run locally use the http pychat version located in the http pychat folder.
+The SSL version is not intended to run locally. If you are looking to run localy run use the http pychat version. 
 
 Ensure you have Python3 installed on your machine
 
