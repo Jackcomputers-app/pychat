@@ -2,11 +2,11 @@
  Chat using python
 This will let you chat on a local server using Python. 
 
-Install instructions for Liunx
+Install instructions for Linux
 
 The default directory has the SSL version of pychat running. 
 
-This will not run localy if you would like to run localy use the http pychat version.
+This will not run locally if you would like to run locally use the http pychat version located in the http pychat folder.
 
 Ensure you have Python3 installed on your machine
 
@@ -16,7 +16,7 @@ python3
 
 ```
 
-Download the file from this github repo onto your computer.
+Download the file from this GitHub repo onto your server.
 
 ```bash
 
@@ -32,7 +32,7 @@ unzip main.zip
 
 ```
 
-Install the Python virtual envorment toolkit 
+Install the Python virtual environment toolkit
 
 ```bash
 
@@ -48,7 +48,7 @@ python3 -m venv venv
 
 ```
 
-Enter the Python virtual envoment
+Enter the Python virtual environment
 
 ```bash
 
@@ -66,7 +66,7 @@ pip install flask
 
 ```
 
-Install socket.io that is used to send and recieve messages. 
+Install socket.io that is used to send and receive messages.
 
 ```bash
 
@@ -82,7 +82,7 @@ pip install eventlet
 
 ```
 
-Install certbot and request an ssl certifate for your domain name. Replace (example.com) with your domain name. 
+Install certbot and request an SSL certificate for your domain name. Replace (example.com) with your domain name.
 
 ```bash
 
@@ -110,7 +110,7 @@ SSL_KEY = "/etc/letsencrypt/live/example.com/privkey.pem
 
 ```
 
-Update the javascript domain in the index.html file with your domain name. 
+Update the JavaScript domain in the index.html file with your domain name.
 
 
 ```bash
@@ -126,7 +126,7 @@ var socket = io.connect("https://example.com");//Replace example.com with the do
 
 ```
 
-Run the server and start chating accross the internet. 
+Run the server and start chatting across the internet.
 
 ```bash
 
