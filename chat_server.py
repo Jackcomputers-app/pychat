@@ -7,6 +7,7 @@ import ssl
 app = Flask(__name__, template_folder='Templates')
 socketio = SocketIO(app, cors_allowed_origins="*")
 
+#Update your domain name here. 
 host = "pychat.jackcomputers.app"
 port = 443
 
