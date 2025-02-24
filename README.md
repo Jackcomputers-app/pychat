@@ -30,6 +30,8 @@ run apt update
 
 sudo apt update
 
+```
+
 Ensure you have an unzip tool.
 
 ```bash
