@@ -8,7 +8,7 @@ app = Flask(__name__, template_folder='Templates')
 socketio = SocketIO(app, cors_allowed_origins="*")
 
 #Update your domain name here. 
-host = "example.com"
+host = "demo.jackcomputers.app"
 port = 443
 
 SSL_CERT = "/etc/letsencrypt/live/example.com/fullchain.pem"
